@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="5" passed="5" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2022-10-20T23:23:06 EDT" name="Default suite" finished-at="2022-10-20T23:23:10 EDT" duration-ms="3948">
+    <groups>
+    </groups>
+    <test started-at="2022-10-20T23:23:06 EDT" name="Default test" finished-at="2022-10-20T23:23:10 EDT" duration-ms="3948">
+      <class name="com.test.tests.EmployeeApiTestScriptE2E">
+        <test-method is-config="true" signature="baseUri()[pri:0, instance:com.test.tests.EmployeeApiTestScriptE2E@3eb7fc54]" started-at="2022-10-20T23:23:06 EDT" name="baseUri" finished-at="2022-10-20T23:23:06 EDT" duration-ms="235" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- baseUri -->
+        <test-method signature="TC_001()[pri:1, instance:com.test.tests.EmployeeApiTestScriptE2E@3eb7fc54]" started-at="2022-10-20T23:23:06 EDT" name="TC_001" finished-at="2022-10-20T23:23:07 EDT" duration-ms="1502" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_001 -->
+        <test-method signature="TC_002_addUserData()[pri:2, instance:com.test.tests.EmployeeApiTestScriptE2E@3eb7fc54]" started-at="2022-10-20T23:23:07 EDT" name="TC_002_addUserData" finished-at="2022-10-20T23:23:08 EDT" duration-ms="454" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_002_addUserData -->
+        <test-method is-config="true" signature="baseUri()[pri:0, instance:com.test.tests.EmployeeApiTestScriptE2E@3eb7fc54]" started-at="2022-10-20T23:23:07 EDT" name="baseUri" finished-at="2022-10-20T23:23:07 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- baseUri -->
+        <test-method is-config="true" signature="baseUri()[pri:0, instance:com.test.tests.EmployeeApiTestScriptE2E@3eb7fc54]" started-at="2022-10-20T23:23:08 EDT" name="baseUri" finished-at="2022-10-20T23:23:08 EDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- baseUri -->
+        <test-method signature="TC_003()[pri:3, instance:com.test.tests.EmployeeApiTestScriptE2E@3eb7fc54]" started-at="2022-10-20T23:23:08 EDT" name="TC_003" finished-at="2022-10-20T23:23:08 EDT" duration-ms="511" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_003 -->
+        <test-method signature="TC_004()[pri:4, instance:com.test.tests.EmployeeApiTestScriptE2E@3eb7fc54]" started-at="2022-10-20T23:23:08 EDT" name="TC_004" finished-at="2022-10-20T23:23:09 EDT" duration-ms="611" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_004 -->
+        <test-method is-config="true" signature="baseUri()[pri:0, instance:com.test.tests.EmployeeApiTestScriptE2E@3eb7fc54]" started-at="2022-10-20T23:23:08 EDT" name="baseUri" finished-at="2022-10-20T23:23:08 EDT" duration-ms="0" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- baseUri -->
+        <test-method is-config="true" signature="baseUri()[pri:0, instance:com.test.tests.EmployeeApiTestScriptE2E@3eb7fc54]" started-at="2022-10-20T23:23:09 EDT" name="baseUri" finished-at="2022-10-20T23:23:09 EDT" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- baseUri -->
+        <test-method signature="TC_005()[pri:5, instance:com.test.tests.EmployeeApiTestScriptE2E@3eb7fc54]" started-at="2022-10-20T23:23:09 EDT" name="TC_005" finished-at="2022-10-20T23:23:10 EDT" duration-ms="609" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- TC_005 -->
+      </class> <!-- com.test.tests.EmployeeApiTestScriptE2E -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>

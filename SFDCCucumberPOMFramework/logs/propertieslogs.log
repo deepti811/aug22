@@ -1,0 +1,10 @@
+[DEBUG] 2022-09-26 15:44:10.682 [main] logTest - This is debug message
+[INFO ] 2022-09-26 15:44:10.684 [main] logTest - This is info message
+[ERROR] 2022-09-26 15:44:10.684 [main] logTest - This is error message
+[WARN ] 2022-09-26 15:44:10.684 [main] logTest - This is warn message
+[FATAL] 2022-09-26 15:44:10.684 [main] logTest - This is fatal message
+[DEBUG] 2022-09-26 15:44:10.689 [main] logTest - This is debug message
+[INFO ] 2022-09-26 15:44:10.690 [main] logTest - This is info message
+[ERROR] 2022-09-26 15:44:10.690 [main] logTest - This is error message
+[WARN ] 2022-09-26 15:44:10.690 [main] logTest - This is warn message
+[FATAL] 2022-09-26 15:44:10.690 [main] logTest - This is fatal message
