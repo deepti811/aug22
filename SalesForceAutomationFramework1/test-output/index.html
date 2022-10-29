@@ -1,0 +1,2040 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports1.css" rel="stylesheet" id="ultra" />
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" id="retro" disabled="false"/>
+    <script type="text/javascript" src="jquery-3.4.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <button id="button" class="button">Switch Retro Theme</button> <!-- button -->
+      <br/>
+      <span class="top-banner-font-1">1 suite</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" title="Collapse/expand all the suites" class="collapse-all-link">
+          <img src="collapseall.gif" class="collapse-all-icon">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" panel-name="suite-Suite1" class="navigator-link">
+              <span class="suite-name border-skipped">Suite1</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" panel-name="test-xml-Suite1" class="navigator-link ">
+                    <span>testng.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="testlist-Suite1" class="navigator-link ">
+                    <span class="test-stats">1 test</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="group-Suite1" class="navigator-link ">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="times-Suite1" class="navigator-link ">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="reporter-Suite1" class="navigator-link ">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="ignored-methods-Suite1" class="navigator-link ">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" panel-name="chronological-Suite1" class="navigator-link ">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">37 methods,  36 skipped,  1 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title skipped">Skipped methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-Suite1" class="hide-methods skipped suite-Suite1"> (hide)</a> <!-- hide-methods skipped suite-Suite1 -->
+                      <a href="#" panel-name="suite-Suite1" class="show-methods skipped suite-Suite1"> (show)</a> <!-- show-methods skipped suite-Suite1 -->
+                    </span>
+                    <div class="method-list-content skipped suite-Suite1">
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite1" title="com.firebase.test.tests.AutomationScripts" class="method navigator-link" hash-for-method="TestID_11Createnewview">TestID_11Createnewview</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite1" title="com.firebase.test.tests.AutomationScripts" class="method navigator-link" hash-for-method="TestID_12Editview">TestID_12Editview</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite1" title="com.firebase.test.tests.AutomationScripts" class="method navigator-link" hash-for-method="TestID_13MergeAccounts">TestID_13MergeAccounts</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite1" title="com.firebase.test.tests.AutomationScripts" class="method navigator-link" hash-for-method="TestID_14CreateAccountReport">TestID_14CreateAccountReport</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite1" title="com.firebase.test.tests.AutomationScripts" class="method navigator-link" hash-for-method="TestID_15opportunitiesDropdown">TestID_15opportunitiesDropdown</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite1" title="com.firebase.test.tests.AutomationScripts" class="method navigator-link" hash-for-method="TestID_16createanewOpty">TestID_16createanewOpty</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite1" title="com.firebase.test.tests.AutomationScripts" class="method navigator-link" hash-for-method="TestID_17Test_Opportunity_Pipeline_Report">TestID_17Test_Opportunity_Pipeline_Report</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite1" title="com.firebase.test.tests.AutomationScripts" class="method navigator-link" hash-for-method="TestID_18Test_Stuck_Opportunity_Report">TestID_18Test_Stuck_Opportunity_Report</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite1" title="com.firebase.test.tests.AutomationScripts" class="method navigator-link" hash-for-method="TestID_19Test_quarterly_Summary_Report">TestID_19Test_quarterly_Summary_Report</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite1" title="com.firebase.test.tests.AutomationScripts" class="method navigator-link" hash-for-method="TestID_1LoginErrorMessage">TestID_1LoginErrorMessage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite1" title="com.firebase.test.tests.AutomationScripts" class="method navigator-link" hash-for-method="TestID_20leads_Tab">TestID_20leads_Tab</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite1" title="com.firebase.test.tests.AutomationScripts" class="method navigator-link" hash-for-method="TestID_21leads_Select_View">TestID_21leads_Select_View</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite1" title="com.firebase.test.tests.AutomationScripts" class="method navigator-link" hash-for-method="TestID_22default_View">TestID_22default_View</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite1" title="com.firebase.test.tests.AutomationScripts" class="method navigator-link" hash-for-method="TestID_23Todays_Leads">TestID_23Todays_Leads</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite1" title="com.firebase.test.tests.AutomationScripts" class="method navigator-link" hash-for-method="TestID_24new_Button_On_Lead">TestID_24new_Button_On_Lead</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite1" title="com.firebase.test.tests.AutomationScripts" class="method navigator-link" hash-for-method="TestID_25Create_new_contact">TestID_25Create_new_contact</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite1" title="com.firebase.test.tests.AutomationScripts" class="method navigator-link" hash-for-method="TestID_26Create_new_View_contact">TestID_26Create_new_View_contact</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite1" title="com.firebase.test.tests.AutomationScripts" class="method navigator-link" hash-for-method="TestID_27Check_contact_Page">TestID_27Check_contact_Page</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite1" title="com.firebase.test.tests.AutomationScripts" class="method navigator-link" hash-for-method="TestID_28Check_My_contact_view">TestID_28Check_My_contact_view</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite1" title="com.firebase.test.tests.AutomationScripts" class="method navigator-link" hash-for-method="TestID_29View_Contact_contact_Page">TestID_29View_Contact_contact_Page</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite1" title="com.firebase.test.tests.AutomationScripts" class="method navigator-link" hash-for-method="TestID_2LoginToSalesForce">TestID_2LoginToSalesForce</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite1" title="com.firebase.test.tests.AutomationScripts" class="method navigator-link" hash-for-method="TestID_30Check_error">TestID_30Check_error</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite1" title="com.firebase.test.tests.AutomationScripts" class="method navigator-link" hash-for-method="TestID_31Check_Cancel">TestID_31Check_Cancel</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite1" title="com.firebase.test.tests.AutomationScripts" class="method navigator-link" hash-for-method="TestID_33Check_SaveandNew_button">TestID_33Check_SaveandNew_button</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite1" title="com.firebase.test.tests.AutomationScripts" class="method navigator-link" hash-for-method="TestID_34verify_Edited_Lastname">TestID_34verify_Edited_Lastname</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite1" title="com.firebase.test.tests.AutomationScripts" class="method navigator-link" hash-for-method="TestID_35verify_Tab_Customization">TestID_35verify_Tab_Customization</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite1" title="com.firebase.test.tests.AutomationScripts" class="method navigator-link" hash-for-method="TestID_36blocking_An_Event">TestID_36blocking_An_Event</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite1" title="com.firebase.test.tests.AutomationScripts" class="method navigator-link" hash-for-method="TestID_37blocking_An_Event_With_Weekly">TestID_37blocking_An_Event_With_Weekly</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite1" title="com.firebase.test.tests.AutomationScripts" class="method navigator-link" hash-for-method="TestID_3CheckRemeberMe">TestID_3CheckRemeberMe</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite1" title="com.firebase.test.tests.AutomationScripts" class="method navigator-link" hash-for-method="TestID_4AForgotPassword">TestID_4AForgotPassword</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite1" title="com.firebase.test.tests.AutomationScripts" class="method navigator-link" hash-for-method="TestID_4BForgotPassword">TestID_4BForgotPassword</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite1" title="com.firebase.test.tests.AutomationScripts" class="method navigator-link" hash-for-method="TestID_5Usermenudropdown">TestID_5Usermenudropdown</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite1" title="com.firebase.test.tests.AutomationScripts" class="method navigator-link" hash-for-method="TestID_6MyProfileFromUsermenudropdown">TestID_6MyProfileFromUsermenudropdown</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite1" title="com.firebase.test.tests.AutomationScripts" class="method navigator-link" hash-for-method="TestID_7MySettingFromUsermenudropdown">TestID_7MySettingFromUsermenudropdown</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite1" title="com.firebase.test.tests.AutomationScripts" class="method navigator-link" hash-for-method="TestID_8DeveloperConsoleFromUsermenudropdown">TestID_8DeveloperConsoleFromUsermenudropdown</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img src="skipped.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite1" title="com.firebase.test.tests.AutomationScripts" class="method navigator-link" hash-for-method="TestID_9LogoutFromUsermenudropdown">TestID_9LogoutFromUsermenudropdown</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content skipped suite-Suite1 -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-Suite1" class="hide-methods passed suite-Suite1"> (hide)</a> <!-- hide-methods passed suite-Suite1 -->
+                      <a href="#" panel-name="suite-Suite1" class="show-methods passed suite-Suite1"> (show)</a> <!-- show-methods passed suite-Suite1 -->
+                    </span>
+                    <div class="method-list-content passed suite-Suite1">
+                      <span>
+                        <img src="passed.png" width="3%"/>
+                        <a href="#" panel-name="suite-Suite1" title="com.firebase.test.tests.AutomationScripts" class="method navigator-link" hash-for-method="TestID_10CreateAccount">TestID_10CreateAccount</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-Suite1 -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-Suite1" class="panel Suite1">
+          <div class="suite-Suite1-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">com.firebase.test.tests.AutomationScripts</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestID_11Createnewview">
+                  </a> <!-- TestID_11Createnewview -->
+                  <span class="method-name">TestID_11Createnewview</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchSessionException: Tried to run command without establishing a connection
+Build info: version: &apos;4.4.0&apos;, revision: &apos;e5c75ed026a&apos;
+System info: host: &apos;Jitendras-MacBook-Air.local&apos;, ip: &apos;2601:84:8801:82c0:6d16:701a:3d2:62c5%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;aarch64&apos;, os.version: &apos;12.0.1&apos;, java.version: &apos;17.0.4&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [e7439f58-d497-4453-ae3f-56161a97a354, setTimeout {implicit=30000}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 105.0.1, moz:accessibilityChecks: false, moz:buildID: 20220922151854, moz:debuggerAddress: 127.0.0.1:65525, moz:geckodriverVersion: 0.31.0, moz:headless: false, moz:platformVersion: 21.1.0, moz:processID: 6525, moz:profile: /var/folders/yg/swgt2fds51s..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: MAC, proxy: Proxy(), se:cdp: ws://127.0.0.1:65525/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: e7439f58-d497-4453-ae3f-56161a97a354
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:547)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteTimeouts.implicitlyWait(RemoteWebDriver.java:902)
+	at com.firebase.test.base.BaseTest.implicitdriverTimeout(BaseTest.java:107)
+	at com.firebase.test.base.BaseTest.tearDown(BaseTest.java:94)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 37 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestID_12Editview">
+                  </a> <!-- TestID_12Editview -->
+                  <span class="method-name">TestID_12Editview</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchSessionException: Tried to run command without establishing a connection
+Build info: version: &apos;4.4.0&apos;, revision: &apos;e5c75ed026a&apos;
+System info: host: &apos;Jitendras-MacBook-Air.local&apos;, ip: &apos;2601:84:8801:82c0:6d16:701a:3d2:62c5%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;aarch64&apos;, os.version: &apos;12.0.1&apos;, java.version: &apos;17.0.4&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [e7439f58-d497-4453-ae3f-56161a97a354, setTimeout {implicit=30000}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 105.0.1, moz:accessibilityChecks: false, moz:buildID: 20220922151854, moz:debuggerAddress: 127.0.0.1:65525, moz:geckodriverVersion: 0.31.0, moz:headless: false, moz:platformVersion: 21.1.0, moz:processID: 6525, moz:profile: /var/folders/yg/swgt2fds51s..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: MAC, proxy: Proxy(), se:cdp: ws://127.0.0.1:65525/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: e7439f58-d497-4453-ae3f-56161a97a354
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:547)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteTimeouts.implicitlyWait(RemoteWebDriver.java:902)
+	at com.firebase.test.base.BaseTest.implicitdriverTimeout(BaseTest.java:107)
+	at com.firebase.test.base.BaseTest.tearDown(BaseTest.java:94)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 37 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestID_13MergeAccounts">
+                  </a> <!-- TestID_13MergeAccounts -->
+                  <span class="method-name">TestID_13MergeAccounts</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchSessionException: Tried to run command without establishing a connection
+Build info: version: &apos;4.4.0&apos;, revision: &apos;e5c75ed026a&apos;
+System info: host: &apos;Jitendras-MacBook-Air.local&apos;, ip: &apos;2601:84:8801:82c0:6d16:701a:3d2:62c5%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;aarch64&apos;, os.version: &apos;12.0.1&apos;, java.version: &apos;17.0.4&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [e7439f58-d497-4453-ae3f-56161a97a354, setTimeout {implicit=30000}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 105.0.1, moz:accessibilityChecks: false, moz:buildID: 20220922151854, moz:debuggerAddress: 127.0.0.1:65525, moz:geckodriverVersion: 0.31.0, moz:headless: false, moz:platformVersion: 21.1.0, moz:processID: 6525, moz:profile: /var/folders/yg/swgt2fds51s..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: MAC, proxy: Proxy(), se:cdp: ws://127.0.0.1:65525/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: e7439f58-d497-4453-ae3f-56161a97a354
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:547)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteTimeouts.implicitlyWait(RemoteWebDriver.java:902)
+	at com.firebase.test.base.BaseTest.implicitdriverTimeout(BaseTest.java:107)
+	at com.firebase.test.base.BaseTest.tearDown(BaseTest.java:94)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 37 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestID_14CreateAccountReport">
+                  </a> <!-- TestID_14CreateAccountReport -->
+                  <span class="method-name">TestID_14CreateAccountReport</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchSessionException: Tried to run command without establishing a connection
+Build info: version: &apos;4.4.0&apos;, revision: &apos;e5c75ed026a&apos;
+System info: host: &apos;Jitendras-MacBook-Air.local&apos;, ip: &apos;2601:84:8801:82c0:6d16:701a:3d2:62c5%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;aarch64&apos;, os.version: &apos;12.0.1&apos;, java.version: &apos;17.0.4&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [e7439f58-d497-4453-ae3f-56161a97a354, setTimeout {implicit=30000}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 105.0.1, moz:accessibilityChecks: false, moz:buildID: 20220922151854, moz:debuggerAddress: 127.0.0.1:65525, moz:geckodriverVersion: 0.31.0, moz:headless: false, moz:platformVersion: 21.1.0, moz:processID: 6525, moz:profile: /var/folders/yg/swgt2fds51s..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: MAC, proxy: Proxy(), se:cdp: ws://127.0.0.1:65525/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: e7439f58-d497-4453-ae3f-56161a97a354
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:547)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteTimeouts.implicitlyWait(RemoteWebDriver.java:902)
+	at com.firebase.test.base.BaseTest.implicitdriverTimeout(BaseTest.java:107)
+	at com.firebase.test.base.BaseTest.tearDown(BaseTest.java:94)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 37 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestID_15opportunitiesDropdown">
+                  </a> <!-- TestID_15opportunitiesDropdown -->
+                  <span class="method-name">TestID_15opportunitiesDropdown</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchSessionException: Tried to run command without establishing a connection
+Build info: version: &apos;4.4.0&apos;, revision: &apos;e5c75ed026a&apos;
+System info: host: &apos;Jitendras-MacBook-Air.local&apos;, ip: &apos;2601:84:8801:82c0:6d16:701a:3d2:62c5%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;aarch64&apos;, os.version: &apos;12.0.1&apos;, java.version: &apos;17.0.4&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [e7439f58-d497-4453-ae3f-56161a97a354, setTimeout {implicit=30000}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 105.0.1, moz:accessibilityChecks: false, moz:buildID: 20220922151854, moz:debuggerAddress: 127.0.0.1:65525, moz:geckodriverVersion: 0.31.0, moz:headless: false, moz:platformVersion: 21.1.0, moz:processID: 6525, moz:profile: /var/folders/yg/swgt2fds51s..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: MAC, proxy: Proxy(), se:cdp: ws://127.0.0.1:65525/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: e7439f58-d497-4453-ae3f-56161a97a354
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:547)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteTimeouts.implicitlyWait(RemoteWebDriver.java:902)
+	at com.firebase.test.base.BaseTest.implicitdriverTimeout(BaseTest.java:107)
+	at com.firebase.test.base.BaseTest.tearDown(BaseTest.java:94)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 37 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestID_16createanewOpty">
+                  </a> <!-- TestID_16createanewOpty -->
+                  <span class="method-name">TestID_16createanewOpty</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchSessionException: Tried to run command without establishing a connection
+Build info: version: &apos;4.4.0&apos;, revision: &apos;e5c75ed026a&apos;
+System info: host: &apos;Jitendras-MacBook-Air.local&apos;, ip: &apos;2601:84:8801:82c0:6d16:701a:3d2:62c5%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;aarch64&apos;, os.version: &apos;12.0.1&apos;, java.version: &apos;17.0.4&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [e7439f58-d497-4453-ae3f-56161a97a354, setTimeout {implicit=30000}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 105.0.1, moz:accessibilityChecks: false, moz:buildID: 20220922151854, moz:debuggerAddress: 127.0.0.1:65525, moz:geckodriverVersion: 0.31.0, moz:headless: false, moz:platformVersion: 21.1.0, moz:processID: 6525, moz:profile: /var/folders/yg/swgt2fds51s..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: MAC, proxy: Proxy(), se:cdp: ws://127.0.0.1:65525/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: e7439f58-d497-4453-ae3f-56161a97a354
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:547)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteTimeouts.implicitlyWait(RemoteWebDriver.java:902)
+	at com.firebase.test.base.BaseTest.implicitdriverTimeout(BaseTest.java:107)
+	at com.firebase.test.base.BaseTest.tearDown(BaseTest.java:94)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 37 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestID_17Test_Opportunity_Pipeline_Report">
+                  </a> <!-- TestID_17Test_Opportunity_Pipeline_Report -->
+                  <span class="method-name">TestID_17Test_Opportunity_Pipeline_Report</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchSessionException: Tried to run command without establishing a connection
+Build info: version: &apos;4.4.0&apos;, revision: &apos;e5c75ed026a&apos;
+System info: host: &apos;Jitendras-MacBook-Air.local&apos;, ip: &apos;2601:84:8801:82c0:6d16:701a:3d2:62c5%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;aarch64&apos;, os.version: &apos;12.0.1&apos;, java.version: &apos;17.0.4&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [e7439f58-d497-4453-ae3f-56161a97a354, setTimeout {implicit=30000}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 105.0.1, moz:accessibilityChecks: false, moz:buildID: 20220922151854, moz:debuggerAddress: 127.0.0.1:65525, moz:geckodriverVersion: 0.31.0, moz:headless: false, moz:platformVersion: 21.1.0, moz:processID: 6525, moz:profile: /var/folders/yg/swgt2fds51s..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: MAC, proxy: Proxy(), se:cdp: ws://127.0.0.1:65525/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: e7439f58-d497-4453-ae3f-56161a97a354
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:547)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteTimeouts.implicitlyWait(RemoteWebDriver.java:902)
+	at com.firebase.test.base.BaseTest.implicitdriverTimeout(BaseTest.java:107)
+	at com.firebase.test.base.BaseTest.tearDown(BaseTest.java:94)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 37 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestID_18Test_Stuck_Opportunity_Report">
+                  </a> <!-- TestID_18Test_Stuck_Opportunity_Report -->
+                  <span class="method-name">TestID_18Test_Stuck_Opportunity_Report</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchSessionException: Tried to run command without establishing a connection
+Build info: version: &apos;4.4.0&apos;, revision: &apos;e5c75ed026a&apos;
+System info: host: &apos;Jitendras-MacBook-Air.local&apos;, ip: &apos;2601:84:8801:82c0:6d16:701a:3d2:62c5%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;aarch64&apos;, os.version: &apos;12.0.1&apos;, java.version: &apos;17.0.4&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [e7439f58-d497-4453-ae3f-56161a97a354, setTimeout {implicit=30000}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 105.0.1, moz:accessibilityChecks: false, moz:buildID: 20220922151854, moz:debuggerAddress: 127.0.0.1:65525, moz:geckodriverVersion: 0.31.0, moz:headless: false, moz:platformVersion: 21.1.0, moz:processID: 6525, moz:profile: /var/folders/yg/swgt2fds51s..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: MAC, proxy: Proxy(), se:cdp: ws://127.0.0.1:65525/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: e7439f58-d497-4453-ae3f-56161a97a354
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:547)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteTimeouts.implicitlyWait(RemoteWebDriver.java:902)
+	at com.firebase.test.base.BaseTest.implicitdriverTimeout(BaseTest.java:107)
+	at com.firebase.test.base.BaseTest.tearDown(BaseTest.java:94)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 37 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestID_19Test_quarterly_Summary_Report">
+                  </a> <!-- TestID_19Test_quarterly_Summary_Report -->
+                  <span class="method-name">TestID_19Test_quarterly_Summary_Report</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchSessionException: Tried to run command without establishing a connection
+Build info: version: &apos;4.4.0&apos;, revision: &apos;e5c75ed026a&apos;
+System info: host: &apos;Jitendras-MacBook-Air.local&apos;, ip: &apos;2601:84:8801:82c0:6d16:701a:3d2:62c5%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;aarch64&apos;, os.version: &apos;12.0.1&apos;, java.version: &apos;17.0.4&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [e7439f58-d497-4453-ae3f-56161a97a354, setTimeout {implicit=30000}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 105.0.1, moz:accessibilityChecks: false, moz:buildID: 20220922151854, moz:debuggerAddress: 127.0.0.1:65525, moz:geckodriverVersion: 0.31.0, moz:headless: false, moz:platformVersion: 21.1.0, moz:processID: 6525, moz:profile: /var/folders/yg/swgt2fds51s..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: MAC, proxy: Proxy(), se:cdp: ws://127.0.0.1:65525/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: e7439f58-d497-4453-ae3f-56161a97a354
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:547)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteTimeouts.implicitlyWait(RemoteWebDriver.java:902)
+	at com.firebase.test.base.BaseTest.implicitdriverTimeout(BaseTest.java:107)
+	at com.firebase.test.base.BaseTest.tearDown(BaseTest.java:94)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 37 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestID_1LoginErrorMessage">
+                  </a> <!-- TestID_1LoginErrorMessage -->
+                  <span class="method-name">TestID_1LoginErrorMessage</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchSessionException: Tried to run command without establishing a connection
+Build info: version: &apos;4.4.0&apos;, revision: &apos;e5c75ed026a&apos;
+System info: host: &apos;Jitendras-MacBook-Air.local&apos;, ip: &apos;2601:84:8801:82c0:6d16:701a:3d2:62c5%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;aarch64&apos;, os.version: &apos;12.0.1&apos;, java.version: &apos;17.0.4&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [e7439f58-d497-4453-ae3f-56161a97a354, setTimeout {implicit=30000}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 105.0.1, moz:accessibilityChecks: false, moz:buildID: 20220922151854, moz:debuggerAddress: 127.0.0.1:65525, moz:geckodriverVersion: 0.31.0, moz:headless: false, moz:platformVersion: 21.1.0, moz:processID: 6525, moz:profile: /var/folders/yg/swgt2fds51s..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: MAC, proxy: Proxy(), se:cdp: ws://127.0.0.1:65525/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: e7439f58-d497-4453-ae3f-56161a97a354
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:547)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteTimeouts.implicitlyWait(RemoteWebDriver.java:902)
+	at com.firebase.test.base.BaseTest.implicitdriverTimeout(BaseTest.java:107)
+	at com.firebase.test.base.BaseTest.tearDown(BaseTest.java:94)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 37 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestID_20leads_Tab">
+                  </a> <!-- TestID_20leads_Tab -->
+                  <span class="method-name">TestID_20leads_Tab</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchSessionException: Tried to run command without establishing a connection
+Build info: version: &apos;4.4.0&apos;, revision: &apos;e5c75ed026a&apos;
+System info: host: &apos;Jitendras-MacBook-Air.local&apos;, ip: &apos;2601:84:8801:82c0:6d16:701a:3d2:62c5%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;aarch64&apos;, os.version: &apos;12.0.1&apos;, java.version: &apos;17.0.4&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [e7439f58-d497-4453-ae3f-56161a97a354, setTimeout {implicit=30000}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 105.0.1, moz:accessibilityChecks: false, moz:buildID: 20220922151854, moz:debuggerAddress: 127.0.0.1:65525, moz:geckodriverVersion: 0.31.0, moz:headless: false, moz:platformVersion: 21.1.0, moz:processID: 6525, moz:profile: /var/folders/yg/swgt2fds51s..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: MAC, proxy: Proxy(), se:cdp: ws://127.0.0.1:65525/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: e7439f58-d497-4453-ae3f-56161a97a354
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:547)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteTimeouts.implicitlyWait(RemoteWebDriver.java:902)
+	at com.firebase.test.base.BaseTest.implicitdriverTimeout(BaseTest.java:107)
+	at com.firebase.test.base.BaseTest.tearDown(BaseTest.java:94)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 37 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestID_21leads_Select_View">
+                  </a> <!-- TestID_21leads_Select_View -->
+                  <span class="method-name">TestID_21leads_Select_View</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchSessionException: Tried to run command without establishing a connection
+Build info: version: &apos;4.4.0&apos;, revision: &apos;e5c75ed026a&apos;
+System info: host: &apos;Jitendras-MacBook-Air.local&apos;, ip: &apos;2601:84:8801:82c0:6d16:701a:3d2:62c5%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;aarch64&apos;, os.version: &apos;12.0.1&apos;, java.version: &apos;17.0.4&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [e7439f58-d497-4453-ae3f-56161a97a354, setTimeout {implicit=30000}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 105.0.1, moz:accessibilityChecks: false, moz:buildID: 20220922151854, moz:debuggerAddress: 127.0.0.1:65525, moz:geckodriverVersion: 0.31.0, moz:headless: false, moz:platformVersion: 21.1.0, moz:processID: 6525, moz:profile: /var/folders/yg/swgt2fds51s..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: MAC, proxy: Proxy(), se:cdp: ws://127.0.0.1:65525/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: e7439f58-d497-4453-ae3f-56161a97a354
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:547)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteTimeouts.implicitlyWait(RemoteWebDriver.java:902)
+	at com.firebase.test.base.BaseTest.implicitdriverTimeout(BaseTest.java:107)
+	at com.firebase.test.base.BaseTest.tearDown(BaseTest.java:94)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 37 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestID_22default_View">
+                  </a> <!-- TestID_22default_View -->
+                  <span class="method-name">TestID_22default_View</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchSessionException: Tried to run command without establishing a connection
+Build info: version: &apos;4.4.0&apos;, revision: &apos;e5c75ed026a&apos;
+System info: host: &apos;Jitendras-MacBook-Air.local&apos;, ip: &apos;2601:84:8801:82c0:6d16:701a:3d2:62c5%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;aarch64&apos;, os.version: &apos;12.0.1&apos;, java.version: &apos;17.0.4&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [e7439f58-d497-4453-ae3f-56161a97a354, setTimeout {implicit=30000}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 105.0.1, moz:accessibilityChecks: false, moz:buildID: 20220922151854, moz:debuggerAddress: 127.0.0.1:65525, moz:geckodriverVersion: 0.31.0, moz:headless: false, moz:platformVersion: 21.1.0, moz:processID: 6525, moz:profile: /var/folders/yg/swgt2fds51s..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: MAC, proxy: Proxy(), se:cdp: ws://127.0.0.1:65525/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: e7439f58-d497-4453-ae3f-56161a97a354
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:547)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteTimeouts.implicitlyWait(RemoteWebDriver.java:902)
+	at com.firebase.test.base.BaseTest.implicitdriverTimeout(BaseTest.java:107)
+	at com.firebase.test.base.BaseTest.tearDown(BaseTest.java:94)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 37 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestID_23Todays_Leads">
+                  </a> <!-- TestID_23Todays_Leads -->
+                  <span class="method-name">TestID_23Todays_Leads</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchSessionException: Tried to run command without establishing a connection
+Build info: version: &apos;4.4.0&apos;, revision: &apos;e5c75ed026a&apos;
+System info: host: &apos;Jitendras-MacBook-Air.local&apos;, ip: &apos;2601:84:8801:82c0:6d16:701a:3d2:62c5%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;aarch64&apos;, os.version: &apos;12.0.1&apos;, java.version: &apos;17.0.4&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [e7439f58-d497-4453-ae3f-56161a97a354, setTimeout {implicit=30000}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 105.0.1, moz:accessibilityChecks: false, moz:buildID: 20220922151854, moz:debuggerAddress: 127.0.0.1:65525, moz:geckodriverVersion: 0.31.0, moz:headless: false, moz:platformVersion: 21.1.0, moz:processID: 6525, moz:profile: /var/folders/yg/swgt2fds51s..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: MAC, proxy: Proxy(), se:cdp: ws://127.0.0.1:65525/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: e7439f58-d497-4453-ae3f-56161a97a354
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:547)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteTimeouts.implicitlyWait(RemoteWebDriver.java:902)
+	at com.firebase.test.base.BaseTest.implicitdriverTimeout(BaseTest.java:107)
+	at com.firebase.test.base.BaseTest.tearDown(BaseTest.java:94)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 37 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestID_24new_Button_On_Lead">
+                  </a> <!-- TestID_24new_Button_On_Lead -->
+                  <span class="method-name">TestID_24new_Button_On_Lead</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchSessionException: Tried to run command without establishing a connection
+Build info: version: &apos;4.4.0&apos;, revision: &apos;e5c75ed026a&apos;
+System info: host: &apos;Jitendras-MacBook-Air.local&apos;, ip: &apos;2601:84:8801:82c0:6d16:701a:3d2:62c5%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;aarch64&apos;, os.version: &apos;12.0.1&apos;, java.version: &apos;17.0.4&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [e7439f58-d497-4453-ae3f-56161a97a354, setTimeout {implicit=30000}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 105.0.1, moz:accessibilityChecks: false, moz:buildID: 20220922151854, moz:debuggerAddress: 127.0.0.1:65525, moz:geckodriverVersion: 0.31.0, moz:headless: false, moz:platformVersion: 21.1.0, moz:processID: 6525, moz:profile: /var/folders/yg/swgt2fds51s..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: MAC, proxy: Proxy(), se:cdp: ws://127.0.0.1:65525/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: e7439f58-d497-4453-ae3f-56161a97a354
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:547)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteTimeouts.implicitlyWait(RemoteWebDriver.java:902)
+	at com.firebase.test.base.BaseTest.implicitdriverTimeout(BaseTest.java:107)
+	at com.firebase.test.base.BaseTest.tearDown(BaseTest.java:94)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 37 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestID_25Create_new_contact">
+                  </a> <!-- TestID_25Create_new_contact -->
+                  <span class="method-name">TestID_25Create_new_contact</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchSessionException: Tried to run command without establishing a connection
+Build info: version: &apos;4.4.0&apos;, revision: &apos;e5c75ed026a&apos;
+System info: host: &apos;Jitendras-MacBook-Air.local&apos;, ip: &apos;2601:84:8801:82c0:6d16:701a:3d2:62c5%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;aarch64&apos;, os.version: &apos;12.0.1&apos;, java.version: &apos;17.0.4&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [e7439f58-d497-4453-ae3f-56161a97a354, setTimeout {implicit=30000}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 105.0.1, moz:accessibilityChecks: false, moz:buildID: 20220922151854, moz:debuggerAddress: 127.0.0.1:65525, moz:geckodriverVersion: 0.31.0, moz:headless: false, moz:platformVersion: 21.1.0, moz:processID: 6525, moz:profile: /var/folders/yg/swgt2fds51s..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: MAC, proxy: Proxy(), se:cdp: ws://127.0.0.1:65525/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: e7439f58-d497-4453-ae3f-56161a97a354
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:547)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteTimeouts.implicitlyWait(RemoteWebDriver.java:902)
+	at com.firebase.test.base.BaseTest.implicitdriverTimeout(BaseTest.java:107)
+	at com.firebase.test.base.BaseTest.tearDown(BaseTest.java:94)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 37 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestID_26Create_new_View_contact">
+                  </a> <!-- TestID_26Create_new_View_contact -->
+                  <span class="method-name">TestID_26Create_new_View_contact</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchSessionException: Tried to run command without establishing a connection
+Build info: version: &apos;4.4.0&apos;, revision: &apos;e5c75ed026a&apos;
+System info: host: &apos;Jitendras-MacBook-Air.local&apos;, ip: &apos;2601:84:8801:82c0:6d16:701a:3d2:62c5%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;aarch64&apos;, os.version: &apos;12.0.1&apos;, java.version: &apos;17.0.4&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [e7439f58-d497-4453-ae3f-56161a97a354, setTimeout {implicit=30000}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 105.0.1, moz:accessibilityChecks: false, moz:buildID: 20220922151854, moz:debuggerAddress: 127.0.0.1:65525, moz:geckodriverVersion: 0.31.0, moz:headless: false, moz:platformVersion: 21.1.0, moz:processID: 6525, moz:profile: /var/folders/yg/swgt2fds51s..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: MAC, proxy: Proxy(), se:cdp: ws://127.0.0.1:65525/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: e7439f58-d497-4453-ae3f-56161a97a354
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:547)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteTimeouts.implicitlyWait(RemoteWebDriver.java:902)
+	at com.firebase.test.base.BaseTest.implicitdriverTimeout(BaseTest.java:107)
+	at com.firebase.test.base.BaseTest.tearDown(BaseTest.java:94)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 37 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestID_27Check_contact_Page">
+                  </a> <!-- TestID_27Check_contact_Page -->
+                  <span class="method-name">TestID_27Check_contact_Page</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchSessionException: Tried to run command without establishing a connection
+Build info: version: &apos;4.4.0&apos;, revision: &apos;e5c75ed026a&apos;
+System info: host: &apos;Jitendras-MacBook-Air.local&apos;, ip: &apos;2601:84:8801:82c0:6d16:701a:3d2:62c5%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;aarch64&apos;, os.version: &apos;12.0.1&apos;, java.version: &apos;17.0.4&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [e7439f58-d497-4453-ae3f-56161a97a354, setTimeout {implicit=30000}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 105.0.1, moz:accessibilityChecks: false, moz:buildID: 20220922151854, moz:debuggerAddress: 127.0.0.1:65525, moz:geckodriverVersion: 0.31.0, moz:headless: false, moz:platformVersion: 21.1.0, moz:processID: 6525, moz:profile: /var/folders/yg/swgt2fds51s..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: MAC, proxy: Proxy(), se:cdp: ws://127.0.0.1:65525/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: e7439f58-d497-4453-ae3f-56161a97a354
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:547)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteTimeouts.implicitlyWait(RemoteWebDriver.java:902)
+	at com.firebase.test.base.BaseTest.implicitdriverTimeout(BaseTest.java:107)
+	at com.firebase.test.base.BaseTest.tearDown(BaseTest.java:94)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 37 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestID_28Check_My_contact_view">
+                  </a> <!-- TestID_28Check_My_contact_view -->
+                  <span class="method-name">TestID_28Check_My_contact_view</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchSessionException: Tried to run command without establishing a connection
+Build info: version: &apos;4.4.0&apos;, revision: &apos;e5c75ed026a&apos;
+System info: host: &apos;Jitendras-MacBook-Air.local&apos;, ip: &apos;2601:84:8801:82c0:6d16:701a:3d2:62c5%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;aarch64&apos;, os.version: &apos;12.0.1&apos;, java.version: &apos;17.0.4&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [e7439f58-d497-4453-ae3f-56161a97a354, setTimeout {implicit=30000}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 105.0.1, moz:accessibilityChecks: false, moz:buildID: 20220922151854, moz:debuggerAddress: 127.0.0.1:65525, moz:geckodriverVersion: 0.31.0, moz:headless: false, moz:platformVersion: 21.1.0, moz:processID: 6525, moz:profile: /var/folders/yg/swgt2fds51s..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: MAC, proxy: Proxy(), se:cdp: ws://127.0.0.1:65525/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: e7439f58-d497-4453-ae3f-56161a97a354
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:547)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteTimeouts.implicitlyWait(RemoteWebDriver.java:902)
+	at com.firebase.test.base.BaseTest.implicitdriverTimeout(BaseTest.java:107)
+	at com.firebase.test.base.BaseTest.tearDown(BaseTest.java:94)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 37 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestID_29View_Contact_contact_Page">
+                  </a> <!-- TestID_29View_Contact_contact_Page -->
+                  <span class="method-name">TestID_29View_Contact_contact_Page</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchSessionException: Tried to run command without establishing a connection
+Build info: version: &apos;4.4.0&apos;, revision: &apos;e5c75ed026a&apos;
+System info: host: &apos;Jitendras-MacBook-Air.local&apos;, ip: &apos;2601:84:8801:82c0:6d16:701a:3d2:62c5%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;aarch64&apos;, os.version: &apos;12.0.1&apos;, java.version: &apos;17.0.4&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [e7439f58-d497-4453-ae3f-56161a97a354, setTimeout {implicit=30000}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 105.0.1, moz:accessibilityChecks: false, moz:buildID: 20220922151854, moz:debuggerAddress: 127.0.0.1:65525, moz:geckodriverVersion: 0.31.0, moz:headless: false, moz:platformVersion: 21.1.0, moz:processID: 6525, moz:profile: /var/folders/yg/swgt2fds51s..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: MAC, proxy: Proxy(), se:cdp: ws://127.0.0.1:65525/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: e7439f58-d497-4453-ae3f-56161a97a354
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:547)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteTimeouts.implicitlyWait(RemoteWebDriver.java:902)
+	at com.firebase.test.base.BaseTest.implicitdriverTimeout(BaseTest.java:107)
+	at com.firebase.test.base.BaseTest.tearDown(BaseTest.java:94)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 37 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestID_2LoginToSalesForce">
+                  </a> <!-- TestID_2LoginToSalesForce -->
+                  <span class="method-name">TestID_2LoginToSalesForce</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchSessionException: Tried to run command without establishing a connection
+Build info: version: &apos;4.4.0&apos;, revision: &apos;e5c75ed026a&apos;
+System info: host: &apos;Jitendras-MacBook-Air.local&apos;, ip: &apos;2601:84:8801:82c0:6d16:701a:3d2:62c5%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;aarch64&apos;, os.version: &apos;12.0.1&apos;, java.version: &apos;17.0.4&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [e7439f58-d497-4453-ae3f-56161a97a354, setTimeout {implicit=30000}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 105.0.1, moz:accessibilityChecks: false, moz:buildID: 20220922151854, moz:debuggerAddress: 127.0.0.1:65525, moz:geckodriverVersion: 0.31.0, moz:headless: false, moz:platformVersion: 21.1.0, moz:processID: 6525, moz:profile: /var/folders/yg/swgt2fds51s..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: MAC, proxy: Proxy(), se:cdp: ws://127.0.0.1:65525/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: e7439f58-d497-4453-ae3f-56161a97a354
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:547)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteTimeouts.implicitlyWait(RemoteWebDriver.java:902)
+	at com.firebase.test.base.BaseTest.implicitdriverTimeout(BaseTest.java:107)
+	at com.firebase.test.base.BaseTest.tearDown(BaseTest.java:94)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 37 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestID_30Check_error">
+                  </a> <!-- TestID_30Check_error -->
+                  <span class="method-name">TestID_30Check_error</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchSessionException: Tried to run command without establishing a connection
+Build info: version: &apos;4.4.0&apos;, revision: &apos;e5c75ed026a&apos;
+System info: host: &apos;Jitendras-MacBook-Air.local&apos;, ip: &apos;2601:84:8801:82c0:6d16:701a:3d2:62c5%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;aarch64&apos;, os.version: &apos;12.0.1&apos;, java.version: &apos;17.0.4&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [e7439f58-d497-4453-ae3f-56161a97a354, setTimeout {implicit=30000}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 105.0.1, moz:accessibilityChecks: false, moz:buildID: 20220922151854, moz:debuggerAddress: 127.0.0.1:65525, moz:geckodriverVersion: 0.31.0, moz:headless: false, moz:platformVersion: 21.1.0, moz:processID: 6525, moz:profile: /var/folders/yg/swgt2fds51s..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: MAC, proxy: Proxy(), se:cdp: ws://127.0.0.1:65525/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: e7439f58-d497-4453-ae3f-56161a97a354
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:547)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteTimeouts.implicitlyWait(RemoteWebDriver.java:902)
+	at com.firebase.test.base.BaseTest.implicitdriverTimeout(BaseTest.java:107)
+	at com.firebase.test.base.BaseTest.tearDown(BaseTest.java:94)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 37 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestID_31Check_Cancel">
+                  </a> <!-- TestID_31Check_Cancel -->
+                  <span class="method-name">TestID_31Check_Cancel</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchSessionException: Tried to run command without establishing a connection
+Build info: version: &apos;4.4.0&apos;, revision: &apos;e5c75ed026a&apos;
+System info: host: &apos;Jitendras-MacBook-Air.local&apos;, ip: &apos;2601:84:8801:82c0:6d16:701a:3d2:62c5%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;aarch64&apos;, os.version: &apos;12.0.1&apos;, java.version: &apos;17.0.4&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [e7439f58-d497-4453-ae3f-56161a97a354, setTimeout {implicit=30000}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 105.0.1, moz:accessibilityChecks: false, moz:buildID: 20220922151854, moz:debuggerAddress: 127.0.0.1:65525, moz:geckodriverVersion: 0.31.0, moz:headless: false, moz:platformVersion: 21.1.0, moz:processID: 6525, moz:profile: /var/folders/yg/swgt2fds51s..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: MAC, proxy: Proxy(), se:cdp: ws://127.0.0.1:65525/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: e7439f58-d497-4453-ae3f-56161a97a354
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:547)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteTimeouts.implicitlyWait(RemoteWebDriver.java:902)
+	at com.firebase.test.base.BaseTest.implicitdriverTimeout(BaseTest.java:107)
+	at com.firebase.test.base.BaseTest.tearDown(BaseTest.java:94)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 37 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestID_33Check_SaveandNew_button">
+                  </a> <!-- TestID_33Check_SaveandNew_button -->
+                  <span class="method-name">TestID_33Check_SaveandNew_button</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchSessionException: Tried to run command without establishing a connection
+Build info: version: &apos;4.4.0&apos;, revision: &apos;e5c75ed026a&apos;
+System info: host: &apos;Jitendras-MacBook-Air.local&apos;, ip: &apos;2601:84:8801:82c0:6d16:701a:3d2:62c5%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;aarch64&apos;, os.version: &apos;12.0.1&apos;, java.version: &apos;17.0.4&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [e7439f58-d497-4453-ae3f-56161a97a354, setTimeout {implicit=30000}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 105.0.1, moz:accessibilityChecks: false, moz:buildID: 20220922151854, moz:debuggerAddress: 127.0.0.1:65525, moz:geckodriverVersion: 0.31.0, moz:headless: false, moz:platformVersion: 21.1.0, moz:processID: 6525, moz:profile: /var/folders/yg/swgt2fds51s..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: MAC, proxy: Proxy(), se:cdp: ws://127.0.0.1:65525/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: e7439f58-d497-4453-ae3f-56161a97a354
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:547)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteTimeouts.implicitlyWait(RemoteWebDriver.java:902)
+	at com.firebase.test.base.BaseTest.implicitdriverTimeout(BaseTest.java:107)
+	at com.firebase.test.base.BaseTest.tearDown(BaseTest.java:94)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 37 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestID_34verify_Edited_Lastname">
+                  </a> <!-- TestID_34verify_Edited_Lastname -->
+                  <span class="method-name">TestID_34verify_Edited_Lastname</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchSessionException: Tried to run command without establishing a connection
+Build info: version: &apos;4.4.0&apos;, revision: &apos;e5c75ed026a&apos;
+System info: host: &apos;Jitendras-MacBook-Air.local&apos;, ip: &apos;2601:84:8801:82c0:6d16:701a:3d2:62c5%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;aarch64&apos;, os.version: &apos;12.0.1&apos;, java.version: &apos;17.0.4&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [e7439f58-d497-4453-ae3f-56161a97a354, setTimeout {implicit=30000}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 105.0.1, moz:accessibilityChecks: false, moz:buildID: 20220922151854, moz:debuggerAddress: 127.0.0.1:65525, moz:geckodriverVersion: 0.31.0, moz:headless: false, moz:platformVersion: 21.1.0, moz:processID: 6525, moz:profile: /var/folders/yg/swgt2fds51s..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: MAC, proxy: Proxy(), se:cdp: ws://127.0.0.1:65525/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: e7439f58-d497-4453-ae3f-56161a97a354
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:547)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteTimeouts.implicitlyWait(RemoteWebDriver.java:902)
+	at com.firebase.test.base.BaseTest.implicitdriverTimeout(BaseTest.java:107)
+	at com.firebase.test.base.BaseTest.tearDown(BaseTest.java:94)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 37 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestID_35verify_Tab_Customization">
+                  </a> <!-- TestID_35verify_Tab_Customization -->
+                  <span class="method-name">TestID_35verify_Tab_Customization</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchSessionException: Tried to run command without establishing a connection
+Build info: version: &apos;4.4.0&apos;, revision: &apos;e5c75ed026a&apos;
+System info: host: &apos;Jitendras-MacBook-Air.local&apos;, ip: &apos;2601:84:8801:82c0:6d16:701a:3d2:62c5%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;aarch64&apos;, os.version: &apos;12.0.1&apos;, java.version: &apos;17.0.4&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [e7439f58-d497-4453-ae3f-56161a97a354, setTimeout {implicit=30000}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 105.0.1, moz:accessibilityChecks: false, moz:buildID: 20220922151854, moz:debuggerAddress: 127.0.0.1:65525, moz:geckodriverVersion: 0.31.0, moz:headless: false, moz:platformVersion: 21.1.0, moz:processID: 6525, moz:profile: /var/folders/yg/swgt2fds51s..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: MAC, proxy: Proxy(), se:cdp: ws://127.0.0.1:65525/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: e7439f58-d497-4453-ae3f-56161a97a354
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:547)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteTimeouts.implicitlyWait(RemoteWebDriver.java:902)
+	at com.firebase.test.base.BaseTest.implicitdriverTimeout(BaseTest.java:107)
+	at com.firebase.test.base.BaseTest.tearDown(BaseTest.java:94)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 37 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestID_36blocking_An_Event">
+                  </a> <!-- TestID_36blocking_An_Event -->
+                  <span class="method-name">TestID_36blocking_An_Event</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchSessionException: Tried to run command without establishing a connection
+Build info: version: &apos;4.4.0&apos;, revision: &apos;e5c75ed026a&apos;
+System info: host: &apos;Jitendras-MacBook-Air.local&apos;, ip: &apos;2601:84:8801:82c0:6d16:701a:3d2:62c5%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;aarch64&apos;, os.version: &apos;12.0.1&apos;, java.version: &apos;17.0.4&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [e7439f58-d497-4453-ae3f-56161a97a354, setTimeout {implicit=30000}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 105.0.1, moz:accessibilityChecks: false, moz:buildID: 20220922151854, moz:debuggerAddress: 127.0.0.1:65525, moz:geckodriverVersion: 0.31.0, moz:headless: false, moz:platformVersion: 21.1.0, moz:processID: 6525, moz:profile: /var/folders/yg/swgt2fds51s..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: MAC, proxy: Proxy(), se:cdp: ws://127.0.0.1:65525/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: e7439f58-d497-4453-ae3f-56161a97a354
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:547)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteTimeouts.implicitlyWait(RemoteWebDriver.java:902)
+	at com.firebase.test.base.BaseTest.implicitdriverTimeout(BaseTest.java:107)
+	at com.firebase.test.base.BaseTest.tearDown(BaseTest.java:94)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 37 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestID_37blocking_An_Event_With_Weekly">
+                  </a> <!-- TestID_37blocking_An_Event_With_Weekly -->
+                  <span class="method-name">TestID_37blocking_An_Event_With_Weekly</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchSessionException: Tried to run command without establishing a connection
+Build info: version: &apos;4.4.0&apos;, revision: &apos;e5c75ed026a&apos;
+System info: host: &apos;Jitendras-MacBook-Air.local&apos;, ip: &apos;2601:84:8801:82c0:6d16:701a:3d2:62c5%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;aarch64&apos;, os.version: &apos;12.0.1&apos;, java.version: &apos;17.0.4&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [e7439f58-d497-4453-ae3f-56161a97a354, setTimeout {implicit=30000}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 105.0.1, moz:accessibilityChecks: false, moz:buildID: 20220922151854, moz:debuggerAddress: 127.0.0.1:65525, moz:geckodriverVersion: 0.31.0, moz:headless: false, moz:platformVersion: 21.1.0, moz:processID: 6525, moz:profile: /var/folders/yg/swgt2fds51s..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: MAC, proxy: Proxy(), se:cdp: ws://127.0.0.1:65525/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: e7439f58-d497-4453-ae3f-56161a97a354
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:547)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteTimeouts.implicitlyWait(RemoteWebDriver.java:902)
+	at com.firebase.test.base.BaseTest.implicitdriverTimeout(BaseTest.java:107)
+	at com.firebase.test.base.BaseTest.tearDown(BaseTest.java:94)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 37 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestID_3CheckRemeberMe">
+                  </a> <!-- TestID_3CheckRemeberMe -->
+                  <span class="method-name">TestID_3CheckRemeberMe</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchSessionException: Tried to run command without establishing a connection
+Build info: version: &apos;4.4.0&apos;, revision: &apos;e5c75ed026a&apos;
+System info: host: &apos;Jitendras-MacBook-Air.local&apos;, ip: &apos;2601:84:8801:82c0:6d16:701a:3d2:62c5%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;aarch64&apos;, os.version: &apos;12.0.1&apos;, java.version: &apos;17.0.4&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [e7439f58-d497-4453-ae3f-56161a97a354, setTimeout {implicit=30000}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 105.0.1, moz:accessibilityChecks: false, moz:buildID: 20220922151854, moz:debuggerAddress: 127.0.0.1:65525, moz:geckodriverVersion: 0.31.0, moz:headless: false, moz:platformVersion: 21.1.0, moz:processID: 6525, moz:profile: /var/folders/yg/swgt2fds51s..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: MAC, proxy: Proxy(), se:cdp: ws://127.0.0.1:65525/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: e7439f58-d497-4453-ae3f-56161a97a354
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:547)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteTimeouts.implicitlyWait(RemoteWebDriver.java:902)
+	at com.firebase.test.base.BaseTest.implicitdriverTimeout(BaseTest.java:107)
+	at com.firebase.test.base.BaseTest.tearDown(BaseTest.java:94)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 37 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestID_4AForgotPassword">
+                  </a> <!-- TestID_4AForgotPassword -->
+                  <span class="method-name">TestID_4AForgotPassword</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchSessionException: Tried to run command without establishing a connection
+Build info: version: &apos;4.4.0&apos;, revision: &apos;e5c75ed026a&apos;
+System info: host: &apos;Jitendras-MacBook-Air.local&apos;, ip: &apos;2601:84:8801:82c0:6d16:701a:3d2:62c5%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;aarch64&apos;, os.version: &apos;12.0.1&apos;, java.version: &apos;17.0.4&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [e7439f58-d497-4453-ae3f-56161a97a354, setTimeout {implicit=30000}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 105.0.1, moz:accessibilityChecks: false, moz:buildID: 20220922151854, moz:debuggerAddress: 127.0.0.1:65525, moz:geckodriverVersion: 0.31.0, moz:headless: false, moz:platformVersion: 21.1.0, moz:processID: 6525, moz:profile: /var/folders/yg/swgt2fds51s..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: MAC, proxy: Proxy(), se:cdp: ws://127.0.0.1:65525/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: e7439f58-d497-4453-ae3f-56161a97a354
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:547)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteTimeouts.implicitlyWait(RemoteWebDriver.java:902)
+	at com.firebase.test.base.BaseTest.implicitdriverTimeout(BaseTest.java:107)
+	at com.firebase.test.base.BaseTest.tearDown(BaseTest.java:94)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 37 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestID_4BForgotPassword">
+                  </a> <!-- TestID_4BForgotPassword -->
+                  <span class="method-name">TestID_4BForgotPassword</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchSessionException: Tried to run command without establishing a connection
+Build info: version: &apos;4.4.0&apos;, revision: &apos;e5c75ed026a&apos;
+System info: host: &apos;Jitendras-MacBook-Air.local&apos;, ip: &apos;2601:84:8801:82c0:6d16:701a:3d2:62c5%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;aarch64&apos;, os.version: &apos;12.0.1&apos;, java.version: &apos;17.0.4&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [e7439f58-d497-4453-ae3f-56161a97a354, setTimeout {implicit=30000}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 105.0.1, moz:accessibilityChecks: false, moz:buildID: 20220922151854, moz:debuggerAddress: 127.0.0.1:65525, moz:geckodriverVersion: 0.31.0, moz:headless: false, moz:platformVersion: 21.1.0, moz:processID: 6525, moz:profile: /var/folders/yg/swgt2fds51s..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: MAC, proxy: Proxy(), se:cdp: ws://127.0.0.1:65525/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: e7439f58-d497-4453-ae3f-56161a97a354
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:547)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteTimeouts.implicitlyWait(RemoteWebDriver.java:902)
+	at com.firebase.test.base.BaseTest.implicitdriverTimeout(BaseTest.java:107)
+	at com.firebase.test.base.BaseTest.tearDown(BaseTest.java:94)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 37 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestID_5Usermenudropdown">
+                  </a> <!-- TestID_5Usermenudropdown -->
+                  <span class="method-name">TestID_5Usermenudropdown</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchSessionException: Tried to run command without establishing a connection
+Build info: version: &apos;4.4.0&apos;, revision: &apos;e5c75ed026a&apos;
+System info: host: &apos;Jitendras-MacBook-Air.local&apos;, ip: &apos;2601:84:8801:82c0:6d16:701a:3d2:62c5%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;aarch64&apos;, os.version: &apos;12.0.1&apos;, java.version: &apos;17.0.4&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [e7439f58-d497-4453-ae3f-56161a97a354, setTimeout {implicit=30000}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 105.0.1, moz:accessibilityChecks: false, moz:buildID: 20220922151854, moz:debuggerAddress: 127.0.0.1:65525, moz:geckodriverVersion: 0.31.0, moz:headless: false, moz:platformVersion: 21.1.0, moz:processID: 6525, moz:profile: /var/folders/yg/swgt2fds51s..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: MAC, proxy: Proxy(), se:cdp: ws://127.0.0.1:65525/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: e7439f58-d497-4453-ae3f-56161a97a354
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:547)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteTimeouts.implicitlyWait(RemoteWebDriver.java:902)
+	at com.firebase.test.base.BaseTest.implicitdriverTimeout(BaseTest.java:107)
+	at com.firebase.test.base.BaseTest.tearDown(BaseTest.java:94)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 37 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestID_6MyProfileFromUsermenudropdown">
+                  </a> <!-- TestID_6MyProfileFromUsermenudropdown -->
+                  <span class="method-name">TestID_6MyProfileFromUsermenudropdown</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchSessionException: Tried to run command without establishing a connection
+Build info: version: &apos;4.4.0&apos;, revision: &apos;e5c75ed026a&apos;
+System info: host: &apos;Jitendras-MacBook-Air.local&apos;, ip: &apos;2601:84:8801:82c0:6d16:701a:3d2:62c5%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;aarch64&apos;, os.version: &apos;12.0.1&apos;, java.version: &apos;17.0.4&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [e7439f58-d497-4453-ae3f-56161a97a354, setTimeout {implicit=30000}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 105.0.1, moz:accessibilityChecks: false, moz:buildID: 20220922151854, moz:debuggerAddress: 127.0.0.1:65525, moz:geckodriverVersion: 0.31.0, moz:headless: false, moz:platformVersion: 21.1.0, moz:processID: 6525, moz:profile: /var/folders/yg/swgt2fds51s..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: MAC, proxy: Proxy(), se:cdp: ws://127.0.0.1:65525/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: e7439f58-d497-4453-ae3f-56161a97a354
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:547)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteTimeouts.implicitlyWait(RemoteWebDriver.java:902)
+	at com.firebase.test.base.BaseTest.implicitdriverTimeout(BaseTest.java:107)
+	at com.firebase.test.base.BaseTest.tearDown(BaseTest.java:94)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 37 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestID_7MySettingFromUsermenudropdown">
+                  </a> <!-- TestID_7MySettingFromUsermenudropdown -->
+                  <span class="method-name">TestID_7MySettingFromUsermenudropdown</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchSessionException: Tried to run command without establishing a connection
+Build info: version: &apos;4.4.0&apos;, revision: &apos;e5c75ed026a&apos;
+System info: host: &apos;Jitendras-MacBook-Air.local&apos;, ip: &apos;2601:84:8801:82c0:6d16:701a:3d2:62c5%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;aarch64&apos;, os.version: &apos;12.0.1&apos;, java.version: &apos;17.0.4&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [e7439f58-d497-4453-ae3f-56161a97a354, setTimeout {implicit=30000}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 105.0.1, moz:accessibilityChecks: false, moz:buildID: 20220922151854, moz:debuggerAddress: 127.0.0.1:65525, moz:geckodriverVersion: 0.31.0, moz:headless: false, moz:platformVersion: 21.1.0, moz:processID: 6525, moz:profile: /var/folders/yg/swgt2fds51s..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: MAC, proxy: Proxy(), se:cdp: ws://127.0.0.1:65525/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: e7439f58-d497-4453-ae3f-56161a97a354
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:547)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteTimeouts.implicitlyWait(RemoteWebDriver.java:902)
+	at com.firebase.test.base.BaseTest.implicitdriverTimeout(BaseTest.java:107)
+	at com.firebase.test.base.BaseTest.tearDown(BaseTest.java:94)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 37 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestID_8DeveloperConsoleFromUsermenudropdown">
+                  </a> <!-- TestID_8DeveloperConsoleFromUsermenudropdown -->
+                  <span class="method-name">TestID_8DeveloperConsoleFromUsermenudropdown</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchSessionException: Tried to run command without establishing a connection
+Build info: version: &apos;4.4.0&apos;, revision: &apos;e5c75ed026a&apos;
+System info: host: &apos;Jitendras-MacBook-Air.local&apos;, ip: &apos;2601:84:8801:82c0:6d16:701a:3d2:62c5%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;aarch64&apos;, os.version: &apos;12.0.1&apos;, java.version: &apos;17.0.4&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [e7439f58-d497-4453-ae3f-56161a97a354, setTimeout {implicit=30000}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 105.0.1, moz:accessibilityChecks: false, moz:buildID: 20220922151854, moz:debuggerAddress: 127.0.0.1:65525, moz:geckodriverVersion: 0.31.0, moz:headless: false, moz:platformVersion: 21.1.0, moz:processID: 6525, moz:profile: /var/folders/yg/swgt2fds51s..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: MAC, proxy: Proxy(), se:cdp: ws://127.0.0.1:65525/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: e7439f58-d497-4453-ae3f-56161a97a354
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:547)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteTimeouts.implicitlyWait(RemoteWebDriver.java:902)
+	at com.firebase.test.base.BaseTest.implicitdriverTimeout(BaseTest.java:107)
+	at com.firebase.test.base.BaseTest.tearDown(BaseTest.java:94)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 37 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestID_9LogoutFromUsermenudropdown">
+                  </a> <!-- TestID_9LogoutFromUsermenudropdown -->
+                  <span class="method-name">TestID_9LogoutFromUsermenudropdown</span>
+                  <div class="stack-trace">org.openqa.selenium.NoSuchSessionException: Tried to run command without establishing a connection
+Build info: version: &apos;4.4.0&apos;, revision: &apos;e5c75ed026a&apos;
+System info: host: &apos;Jitendras-MacBook-Air.local&apos;, ip: &apos;2601:84:8801:82c0:6d16:701a:3d2:62c5%en0&apos;, os.name: &apos;Mac OS X&apos;, os.arch: &apos;aarch64&apos;, os.version: &apos;12.0.1&apos;, java.version: &apos;17.0.4&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [e7439f58-d497-4453-ae3f-56161a97a354, setTimeout {implicit=30000}]
+Capabilities {acceptInsecureCerts: true, browserName: firefox, browserVersion: 105.0.1, moz:accessibilityChecks: false, moz:buildID: 20220922151854, moz:debuggerAddress: 127.0.0.1:65525, moz:geckodriverVersion: 0.31.0, moz:headless: false, moz:platformVersion: 21.1.0, moz:processID: 6525, moz:profile: /var/folders/yg/swgt2fds51s..., moz:shutdownTimeout: 60000, moz:useNonSpecCompliantPointerOrigin: false, moz:webdriverClick: true, moz:windowless: false, pageLoadStrategy: normal, platformName: MAC, proxy: Proxy(), se:cdp: ws://127.0.0.1:65525/devtoo..., se:cdpVersion: 85.0, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify}
+Session ID: e7439f58-d497-4453-ae3f-56161a97a354
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:547)
+	at org.openqa.selenium.remote.RemoteWebDriver$RemoteWebDriverOptions$RemoteTimeouts.implicitlyWait(RemoteWebDriver.java:902)
+	at com.firebase.test.base.BaseTest.implicitdriverTimeout(BaseTest.java:107)
+	at com.firebase.test.base.BaseTest.tearDown(BaseTest.java:94)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
+... Removed 37 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite1-class-skipped -->
+          <div class="suite-Suite1-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.firebase.test.tests.AutomationScripts</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="TestID_10CreateAccount">
+                  </a> <!-- TestID_10CreateAccount -->
+                  <span class="method-name">TestID_10CreateAccount</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-Suite1-class-passed -->
+        </div> <!-- panel Suite1 -->
+        <div panel-name="test-xml-Suite1" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">/Users/jitendrasolanki/eclipse-workspace/SalesForceAutomationFramework1/testng.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite name=&quot;Suite1&quot; guice-stage=&quot;DEVELOPMENT&quot;&gt;
+  &lt;test thread-count=&quot;5&quot; name=&quot;Regression&quot;&gt;
+    &lt;parameter name=&quot;browsername&quot; value=&quot;firefox&quot;/&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.firebase.test.tests.AutomationScripts&quot;&gt;
+        &lt;methods&gt;
+          &lt;include name=&quot;TestID_1LoginErrorMessage()&quot;/&gt;
+          &lt;include name=&quot;TestID_2LoginToSalesForce()&quot;/&gt;
+          &lt;include name=&quot;TestID_3CheckRemeberMe()&quot;/&gt;
+          &lt;include name=&quot;TestID_4AForgotPassword()&quot;/&gt;
+          &lt;include name=&quot;TestID_4BForgotPassword()&quot;/&gt;
+          &lt;include name=&quot;TestID_5Usermenudropdown()&quot;/&gt;
+          &lt;include name=&quot;TestID_6MyProfileFromUsermenudropdown()&quot;/&gt;
+          &lt;include name=&quot;TestID_7MySettingFromUsermenudropdown()&quot;/&gt;
+          &lt;include name=&quot;TestID_8DeveloperConsoleFromUsermenudropdown()&quot;/&gt;
+          &lt;include name=&quot;TestID_9LogoutFromUsermenudropdown()&quot;/&gt;
+          &lt;include name=&quot;TestID_10CreateAccount()&quot;/&gt;
+          &lt;include name=&quot;TestID_11Createnewview()&quot;/&gt;
+          &lt;include name=&quot;TestID_12Editview()&quot;/&gt;
+          &lt;include name=&quot;TestID_13MergeAccounts()&quot;/&gt;
+          &lt;include name=&quot;TestID_14CreateAccountReport()&quot;/&gt;
+          &lt;include name=&quot;TestID_15opportunitiesDropdown()&quot;/&gt;
+          &lt;include name=&quot;TestID_16createanewOpty()&quot;/&gt;
+          &lt;include name=&quot;TestID_17Test_Opportunity_Pipeline_Report()&quot;/&gt;
+          &lt;include name=&quot;TestID_18Test_Stuck_Opportunity_Report()&quot;/&gt;
+          &lt;include name=&quot;TestID_19Test_quarterly_Summary_Report()&quot;/&gt;
+          &lt;include name=&quot;TestID_20leads_Tab()&quot;/&gt;
+          &lt;include name=&quot;TestID_21leads_Select_View()&quot;/&gt;
+          &lt;include name=&quot;TestID_22default_View()&quot;/&gt;
+          &lt;include name=&quot;TestID_23Todays_Leads()&quot;/&gt;
+          &lt;include name=&quot;TestID_24new_Button_On_Lead()&quot;/&gt;
+          &lt;include name=&quot;TestID_25Create_new_contact()&quot;/&gt;
+          &lt;include name=&quot;TestID_26Create_new_View_contact()&quot;/&gt;
+          &lt;include name=&quot;TestID_27Check_contact_Page()&quot;/&gt;
+          &lt;include name=&quot;TestID_28Check_My_contact_view()&quot;/&gt;
+          &lt;include name=&quot;TestID_29View_Contact_contact_Page()&quot;/&gt;
+          &lt;include name=&quot;TestID_30Check_error()&quot;/&gt;
+          &lt;include name=&quot;TestID_31Check_Cancel()&quot;/&gt;
+          &lt;include name=&quot;TestID_32Check_SaveandNew_button()&quot;/&gt;
+          &lt;include name=&quot;TestID_33Check_SaveandNew_button()&quot;/&gt;
+          &lt;include name=&quot;TestID_34verify_Edited_Lastname()&quot;/&gt;
+          &lt;include name=&quot;TestID_35verify_Tab_Customization()&quot;/&gt;
+          &lt;include name=&quot;TestID_36blocking_An_Event()&quot;/&gt;
+          &lt;include name=&quot;TestID_37blocking_An_Event_With_Weekly()&quot;/&gt;
+        &lt;/methods&gt;
+      &lt;/class&gt; &lt;!-- com.firebase.test.tests.AutomationScripts --&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- Regression --&gt;
+&lt;/suite&gt; &lt;!-- Suite1 --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-Suite1" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for Suite1</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">Regression (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-Suite1" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for Suite1</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-Suite1" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for Suite1</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_Suite1');
+function tableData_Suite1() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(37);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'TestID_10CreateAccount')
+data.setCell(0, 2, 'com.firebase.test.tests.AutomationScripts')
+data.setCell(0, 3, 12964);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'TestID_11Createnewview')
+data.setCell(1, 2, 'com.firebase.test.tests.AutomationScripts')
+data.setCell(1, 3, 0);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'TestID_13MergeAccounts')
+data.setCell(2, 2, 'com.firebase.test.tests.AutomationScripts')
+data.setCell(2, 3, 0);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'TestID_20leads_Tab')
+data.setCell(3, 2, 'com.firebase.test.tests.AutomationScripts')
+data.setCell(3, 3, 0);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'TestID_21leads_Select_View')
+data.setCell(4, 2, 'com.firebase.test.tests.AutomationScripts')
+data.setCell(4, 3, 0);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'TestID_29View_Contact_contact_Page')
+data.setCell(5, 2, 'com.firebase.test.tests.AutomationScripts')
+data.setCell(5, 3, 0);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'TestID_18Test_Stuck_Opportunity_Report')
+data.setCell(6, 2, 'com.firebase.test.tests.AutomationScripts')
+data.setCell(6, 3, 0);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'TestID_25Create_new_contact')
+data.setCell(7, 2, 'com.firebase.test.tests.AutomationScripts')
+data.setCell(7, 3, 0);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'TestID_4AForgotPassword')
+data.setCell(8, 2, 'com.firebase.test.tests.AutomationScripts')
+data.setCell(8, 3, 0);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'TestID_34verify_Edited_Lastname')
+data.setCell(9, 2, 'com.firebase.test.tests.AutomationScripts')
+data.setCell(9, 3, 0);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'TestID_37blocking_An_Event_With_Weekly')
+data.setCell(10, 2, 'com.firebase.test.tests.AutomationScripts')
+data.setCell(10, 3, 0);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'TestID_33Check_SaveandNew_button')
+data.setCell(11, 2, 'com.firebase.test.tests.AutomationScripts')
+data.setCell(11, 3, 0);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'TestID_15opportunitiesDropdown')
+data.setCell(12, 2, 'com.firebase.test.tests.AutomationScripts')
+data.setCell(12, 3, 0);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'TestID_36blocking_An_Event')
+data.setCell(13, 2, 'com.firebase.test.tests.AutomationScripts')
+data.setCell(13, 3, 0);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'TestID_19Test_quarterly_Summary_Report')
+data.setCell(14, 2, 'com.firebase.test.tests.AutomationScripts')
+data.setCell(14, 3, 0);
+data.setCell(15, 0, 15)
+data.setCell(15, 1, 'TestID_14CreateAccountReport')
+data.setCell(15, 2, 'com.firebase.test.tests.AutomationScripts')
+data.setCell(15, 3, 0);
+data.setCell(16, 0, 16)
+data.setCell(16, 1, 'TestID_12Editview')
+data.setCell(16, 2, 'com.firebase.test.tests.AutomationScripts')
+data.setCell(16, 3, 0);
+data.setCell(17, 0, 17)
+data.setCell(17, 1, 'TestID_24new_Button_On_Lead')
+data.setCell(17, 2, 'com.firebase.test.tests.AutomationScripts')
+data.setCell(17, 3, 0);
+data.setCell(18, 0, 18)
+data.setCell(18, 1, 'TestID_9LogoutFromUsermenudropdown')
+data.setCell(18, 2, 'com.firebase.test.tests.AutomationScripts')
+data.setCell(18, 3, 0);
+data.setCell(19, 0, 19)
+data.setCell(19, 1, 'TestID_28Check_My_contact_view')
+data.setCell(19, 2, 'com.firebase.test.tests.AutomationScripts')
+data.setCell(19, 3, 0);
+data.setCell(20, 0, 20)
+data.setCell(20, 1, 'TestID_26Create_new_View_contact')
+data.setCell(20, 2, 'com.firebase.test.tests.AutomationScripts')
+data.setCell(20, 3, 0);
+data.setCell(21, 0, 21)
+data.setCell(21, 1, 'TestID_5Usermenudropdown')
+data.setCell(21, 2, 'com.firebase.test.tests.AutomationScripts')
+data.setCell(21, 3, 0);
+data.setCell(22, 0, 22)
+data.setCell(22, 1, 'TestID_16createanewOpty')
+data.setCell(22, 2, 'com.firebase.test.tests.AutomationScripts')
+data.setCell(22, 3, 0);
+data.setCell(23, 0, 23)
+data.setCell(23, 1, 'TestID_31Check_Cancel')
+data.setCell(23, 2, 'com.firebase.test.tests.AutomationScripts')
+data.setCell(23, 3, 0);
+data.setCell(24, 0, 24)
+data.setCell(24, 1, 'TestID_30Check_error')
+data.setCell(24, 2, 'com.firebase.test.tests.AutomationScripts')
+data.setCell(24, 3, 0);
+data.setCell(25, 0, 25)
+data.setCell(25, 1, 'TestID_7MySettingFromUsermenudropdown')
+data.setCell(25, 2, 'com.firebase.test.tests.AutomationScripts')
+data.setCell(25, 3, 0);
+data.setCell(26, 0, 26)
+data.setCell(26, 1, 'TestID_17Test_Opportunity_Pipeline_Report')
+data.setCell(26, 2, 'com.firebase.test.tests.AutomationScripts')
+data.setCell(26, 3, 0);
+data.setCell(27, 0, 27)
+data.setCell(27, 1, 'TestID_8DeveloperConsoleFromUsermenudropdown')
+data.setCell(27, 2, 'com.firebase.test.tests.AutomationScripts')
+data.setCell(27, 3, 0);
+data.setCell(28, 0, 28)
+data.setCell(28, 1, 'TestID_2LoginToSalesForce')
+data.setCell(28, 2, 'com.firebase.test.tests.AutomationScripts')
+data.setCell(28, 3, 0);
+data.setCell(29, 0, 29)
+data.setCell(29, 1, 'TestID_4BForgotPassword')
+data.setCell(29, 2, 'com.firebase.test.tests.AutomationScripts')
+data.setCell(29, 3, 0);
+data.setCell(30, 0, 30)
+data.setCell(30, 1, 'TestID_23Todays_Leads')
+data.setCell(30, 2, 'com.firebase.test.tests.AutomationScripts')
+data.setCell(30, 3, 0);
+data.setCell(31, 0, 31)
+data.setCell(31, 1, 'TestID_35verify_Tab_Customization')
+data.setCell(31, 2, 'com.firebase.test.tests.AutomationScripts')
+data.setCell(31, 3, 0);
+data.setCell(32, 0, 32)
+data.setCell(32, 1, 'TestID_27Check_contact_Page')
+data.setCell(32, 2, 'com.firebase.test.tests.AutomationScripts')
+data.setCell(32, 3, 0);
+data.setCell(33, 0, 33)
+data.setCell(33, 1, 'TestID_22default_View')
+data.setCell(33, 2, 'com.firebase.test.tests.AutomationScripts')
+data.setCell(33, 3, 0);
+data.setCell(34, 0, 34)
+data.setCell(34, 1, 'TestID_1LoginErrorMessage')
+data.setCell(34, 2, 'com.firebase.test.tests.AutomationScripts')
+data.setCell(34, 3, 0);
+data.setCell(35, 0, 35)
+data.setCell(35, 1, 'TestID_6MyProfileFromUsermenudropdown')
+data.setCell(35, 2, 'com.firebase.test.tests.AutomationScripts')
+data.setCell(35, 3, 0);
+data.setCell(36, 0, 36)
+data.setCell(36, 1, 'TestID_3CheckRemeberMe')
+data.setCell(36, 2, 'com.firebase.test.tests.AutomationScripts')
+data.setCell(36, 3, 0);
+window.suiteTableData['Suite1']= { tableData: data, tableDiv: 'times-div-Suite1'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 12 seconds</span>
+              <div id="times-div-Suite1">
+              </div> <!-- times-div-Suite1 -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-Suite1" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for Suite1</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-Suite1" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-Suite1" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.firebase.test.tests.AutomationScripts</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setupBeforetest</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp(firefox, public static void com.firebase.test.tests.AutomationScripts.TestID_10CreateAccount() throw...)</span>
+                <span class="method-start">47 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TestID_10CreateAccount</span>
+                <span class="method-start">4393 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">tearDown</span>
+                <span class="method-start">17360 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">17365 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TestID_11Createnewview</span>
+                <span class="method-start">17366 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">17367 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">17368 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TestID_12Editview</span>
+                <span class="method-start">17368 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">17369 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">17370 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TestID_13MergeAccounts</span>
+                <span class="method-start">17370 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">17371 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">17371 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TestID_14CreateAccountReport</span>
+                <span class="method-start">17372 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">17373 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">17373 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TestID_15opportunitiesDropdown</span>
+                <span class="method-start">17374 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">17377 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">17377 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TestID_16createanewOpty</span>
+                <span class="method-start">17377 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">17379 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">17379 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TestID_17Test_Opportunity_Pipeline_Report</span>
+                <span class="method-start">17379 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">17380 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">17381 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TestID_18Test_Stuck_Opportunity_Report</span>
+                <span class="method-start">17381 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">17382 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">17382 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TestID_19Test_quarterly_Summary_Report</span>
+                <span class="method-start">17382 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">17383 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">17383 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TestID_1LoginErrorMessage</span>
+                <span class="method-start">17383 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">17384 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">17385 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TestID_20leads_Tab</span>
+                <span class="method-start">17385 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">17386 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">17386 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TestID_21leads_Select_View</span>
+                <span class="method-start">17386 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">17387 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">17387 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TestID_22default_View</span>
+                <span class="method-start">17387 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">17388 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">17388 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TestID_23Todays_Leads</span>
+                <span class="method-start">17389 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">17391 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">17391 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TestID_24new_Button_On_Lead</span>
+                <span class="method-start">17391 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">17392 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">17393 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TestID_25Create_new_contact</span>
+                <span class="method-start">17394 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">17394 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">17395 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TestID_26Create_new_View_contact</span>
+                <span class="method-start">17395 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">17395 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">17396 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TestID_27Check_contact_Page</span>
+                <span class="method-start">17396 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">17397 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">17397 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TestID_28Check_My_contact_view</span>
+                <span class="method-start">17397 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">17399 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">17399 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TestID_29View_Contact_contact_Page</span>
+                <span class="method-start">17400 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">17400 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">17401 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TestID_2LoginToSalesForce</span>
+                <span class="method-start">17401 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">17401 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">17402 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TestID_30Check_error</span>
+                <span class="method-start">17402 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">17402 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">17403 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TestID_31Check_Cancel</span>
+                <span class="method-start">17403 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">17403 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">17404 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TestID_33Check_SaveandNew_button</span>
+                <span class="method-start">17404 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">17404 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">17405 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TestID_34verify_Edited_Lastname</span>
+                <span class="method-start">17405 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">17406 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">17407 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TestID_35verify_Tab_Customization</span>
+                <span class="method-start">17407 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">17408 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">17408 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TestID_36blocking_An_Event</span>
+                <span class="method-start">17408 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">17409 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">17409 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TestID_37blocking_An_Event_With_Weekly</span>
+                <span class="method-start">17410 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">17410 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">17410 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TestID_3CheckRemeberMe</span>
+                <span class="method-start">17410 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">17411 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">17411 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TestID_4AForgotPassword</span>
+                <span class="method-start">17411 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">17412 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">17412 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TestID_4BForgotPassword</span>
+                <span class="method-start">17412 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">17413 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">17413 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TestID_5Usermenudropdown</span>
+                <span class="method-start">17413 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">17414 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">17414 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TestID_6MyProfileFromUsermenudropdown</span>
+                <span class="method-start">17414 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">17415 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">17415 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TestID_7MySettingFromUsermenudropdown</span>
+                <span class="method-start">17415 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">17416 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">17416 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TestID_8DeveloperConsoleFromUsermenudropdown</span>
+                <span class="method-start">17416 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">17417 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-method before">
+                <span class="method-name">setUp</span>
+                <span class="method-start">17417 ms</span>
+              </div> <!-- configuration-method before -->
+              <div class="test-method">
+                <span class="method-name">TestID_9LogoutFromUsermenudropdown</span>
+                <span class="method-start">17417 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-method after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">17417 ms</span>
+              </div> <!-- configuration-method after -->
+              <div class="configuration-test after">
+                <span class="method-name">teardownAfterTest</span>
+                <span class="method-start">17419 ms</span>
+              </div> <!-- configuration-test after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+<script type="text/javascript" src="testng-reports2.js"></script>
+</html>

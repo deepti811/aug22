@@ -1,0 +1,10 @@
+Manifest-Version: 1.0
+Bundle-ManifestVersion: 2
+Bundle-Name: SalesForceAutomationFramework1
+Bundle-SymbolicName: SalesForceAutomationFramework1
+Bundle-Version: 1.0.0.qualifier
+Bundle-RequiredExecutionEnvironment: JavaSE-17
+Automatic-Module-Name: SalesForceAutomationFramework1
+Export-Package: com.firebase.test.base,
+ com.firebase.test.tests,
+ com.firebase.test.utility

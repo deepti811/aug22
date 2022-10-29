@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
+    <classes>
+      <class name="com.firebase.test.tests.AutomationScripts">
+        <methods>
+          <include name="TestID_24new_Button_On_Lead"/>
+          <include name="TestID_18Test_Stuck_Opportunity_Report"/>
+          <include name="TestID_19Test_quarterly_Summary_Report"/>
+          <include name="TestID_20leads_Tab"/>
+          <include name="TestID_21leads_Select_View"/>
+          <include name="TestID_12Editview"/>
+          <include name="TestID_7MySettingFromUsermenudropdown"/>
+          <include name="TestID_13MergeAccounts"/>
+          <include name="TestID_4BForgotPassword"/>
+          <include name="TestID_23Todays_Leads"/>
+          <include name="tearDown"/>
+          <include name="TestID_14CreateAccountReport"/>
+          <include name="TestID_6MyProfileFromUsermenudropdown"/>
+          <include name="TestID_9LogoutFromUsermenudropdown"/>
+          <include name="TestID_22default_View"/>
+          <include name="TestID_11Createnewview"/>
+          <include name="TestID_25Create_new_contact"/>
+          <include name="TestID_17Test_Opportunity_Pipeline_Report"/>
+          <include name="TestID_16createanewOpty"/>
+          <include name="TestID_5Usermenudropdown"/>
+          <include name="teardownAfterTest"/>
+          <include name="TestID_10CreateAccount"/>
+          <include name="setUp"/>
+          <include name="TestID_4AForgotPassword"/>
+          <include name="TestID_1LoginErrorMessage"/>
+          <include name="TestID_3CheckRemeberMe"/>
+          <include name="TestID_15opportunitiesDropdown"/>
+          <include name="TestID_8DeveloperConsoleFromUsermenudropdown"/>
+          <include name="setupBeforetest"/>
+          <include name="TestID_2LoginToSalesForce"/>
+        </methods>
+      </class> <!-- com.firebase.test.tests.AutomationScripts -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
